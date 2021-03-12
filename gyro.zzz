@@ -1,0 +1,17 @@
+deps:
+  ebur128:
+    root: src/main.zig
+    src:
+      github:
+        user: mattnite
+        repo: ebur128
+        ref: main
+
+build_deps:
+  Ebur128Builder:
+    root: src/builder.zig
+    src:
+      github:
+        user: mattnite
+        repo: ebur128
+        ref: main
